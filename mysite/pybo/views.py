@@ -31,3 +31,5 @@ def question_create(request):
         form = QuestionForm()
     context = {'form': form}
     return render(request, 'pybo/question_form.html', context)
+
+    
